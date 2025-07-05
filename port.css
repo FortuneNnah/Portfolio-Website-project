@@ -16,7 +16,7 @@ body{
 header{
     z-index: 889;
     position: fixed;
-    background-color: rgba(255,255,255,0.1);
+    background: linear-gradient(135deg, #060e83, #000000);
     top: 0;
     left: 0;
     width: 100%;
@@ -134,21 +134,29 @@ section{
 
 .btn{
     color: white;
-    background-color: #3a6cf4;
+    background: rgb(58, 108, 244);
+    background: linear-gradient(135deg, #000 0%, #060e83 100%);
+    border: none;
     font-size: 1em;
     font-weight: 600;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 25px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
     border-radius: 2px;
     margin-top: 30px;
     transition: 0.5s ease;
+    cursor: pointer;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
 }
 
 .btn:hover{
-    background-color: #235bf6;
+       background: rgb(0,3,255);
+background: linear-gradient(0deg, rgb(0, 3, 255) 0%, rgba(2,126,251,1) 100%));
 }
 
 .media-icons{
@@ -161,9 +169,12 @@ section{
     margin-right: 30px;
 }
 
-.media-icon a:hover{
+.media-icons a:hover{
+    border-radius: 50%;
+    background: #3a6cf4;
+    padding: 8px 12px; /
     background-color: #3a6cf4;
-    color: black;
+    color: #000;
 }
 
 
@@ -256,7 +267,7 @@ section{
 /* Skills Section */
 
 .skills{
-    background-color: black;
+    background: linear-gradient(#060e83, #000);
 }
 
 .section-title-skills{
@@ -354,17 +365,17 @@ section{
 }
 
 .skills .content .col-right .bar .css::before{
-    width: 60%;
+    width: 70%;
     background-color: #0c73b8;
 }
 
 .skills .content .col-right .bar .javascript::before{
-    width: 40%;
+    width: 50%;
     background-color: #e3a324;
 }
 
 .skills .content .col-right .bar .python::before{
-    width: 30%;
+    width: 40%;
     background-color: blue;
 }
 
@@ -434,7 +445,7 @@ section{
 /* Work */
 
 .work{
-    background-color: #000016;
+    background: linear-gradient(165deg, #000, #060e83);
 }
 .section-title-work{
     position: relative;
@@ -542,7 +553,7 @@ section{
   }
   
   .contact .content .row .card:hover .contact-icon{
-    transform: translateY(-10px);
+    transform: translateY(-15px);
   }
   
   .contact .content .row .card .info{
@@ -560,6 +571,8 @@ section{
     color: #666;
     font-weight: 500;
   }
+
+  
   
   .contact-form{
     background: #fff;
