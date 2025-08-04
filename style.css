@@ -156,7 +156,6 @@ section{
 
 .btn:hover{
        background: rgb(0,3,255);
-       background: linear-gradient(0deg, rgb(0, 3, 255) 0%, rgba(2,126,251,1) 100%));
 }
 
 .media-icons{
@@ -179,7 +178,6 @@ section{
 .title{
     width: 100%;
     display: flex;
-
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -259,7 +257,6 @@ section{
 
 .about .content .col-right .paragraph-text{
     line-height: 1.5;
-    font-weight: 380;
     font-size: 1em;
 }
 
